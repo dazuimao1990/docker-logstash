@@ -7,3 +7,4 @@ COPY logstash.conf /usr/share/logstash/pipeline/logstash.conf
 COPY logstash.yml /usr/share/logstash/config/logstash.yml
 
 COPY sqljdbc42.jar /usr/share/logstash/logstash-core/lib/jars/sqljdbc42.jar
+COPY mysql-connector-java-5.1.36-bin.jar /usr/share/logstash/logstash-core/lib/jars/mysql-connector-java-5.1.36-bin.jar
